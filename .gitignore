@@ -1,6 +1,3 @@
-# Duplicate/backup model files (exceed GitHub limits)
-models/Random_Forest_House_Price(1).pkl
-models/columns(1).pkl
 
 # Python
 __pycache__/
