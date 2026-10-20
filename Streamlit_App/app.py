@@ -50,10 +50,9 @@ with st.form("house_form"):
 
     # --- Neighborhood ---
     with st.container(border=True):
-        st.markdown("#### 🏘️ Neighborhood")
         c1, c2 = st.columns(2)
-        sqft_living15 = c1.number_input("Avg neighbor living area (sq.ft)", 0, 20000, 2000, step=50)
-        sqft_lot15 = c2.number_input("Avg neighbor lot size (sq.ft)", 0, 1000000, 8000, step=100)
+        sqft_living15 = c1.number_input("Avg living area (sq.ft)", 0, 20000, 2000, step=50)
+        sqft_lot15 = c2.number_input("Avg lot size (sq.ft)", 0, 1000000, 8000, step=100)
 
     submitted = st.form_submit_button("Predict Price", type="primary", use_container_width=True)
 
