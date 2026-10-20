@@ -1,0 +1,17 @@
+# Large model artifacts — retrain locally or download separately
+models/Random_Forest_House_Price.pkl
+models/Random_Forest_House_Price(1).pkl
+models/columns(1).pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
