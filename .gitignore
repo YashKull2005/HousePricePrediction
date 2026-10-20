@@ -1,5 +1,4 @@
-# Large model artifacts — retrain locally or download separately
-models/Random_Forest_House_Price.pkl
+# Duplicate/backup model files (exceed GitHub limits)
 models/Random_Forest_House_Price(1).pkl
 models/columns(1).pkl
 
